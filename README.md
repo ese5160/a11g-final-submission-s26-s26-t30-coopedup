@@ -2,14 +2,14 @@
 
 # a11g-final-submission
 
-**Team Number:**
+**Team Number: 30**
 
-**Team Name:**
+**Team Name: Cooped Up**
 
 | Team Member Name | Email Address | GitHub Username |
-| ---------------- | ------------- | --------------- |
-| [Name 1]         | [Email 1]     | [Username 1]    |
-| [Name 2]         | [Email 2]     | [Username 2]    |
+| ---------------- | -------------------------- | --------------- |
+| Alexander Yu     | ayu2126@seas.upenn.edu     | lerntuspel      |
+| Ben Sirota       | sirotab@seas.upenn.edu     | 21bsirota       |
 
 **GitHub Repository URL:**
 
@@ -23,8 +23,5 @@
 
 ## 5. Codebase
 
-Do *not* commit any of your source code to this repository. Rather, provide links to the other GitHub repository you've already been using with your firmware.
-
-- A link to your final embedded C firmware codebases
-- A link to your Node-RED dashboard code
-- Links to any other software required for the functionality of your device
+[Final Embedded C Firmware Codebase](https://github.com/ese5160/final-project-firmware-s26-t30-coopedup/tree/main/A09G/wifi_embedded_mqtt_client_soc)
+[Node-RED Dashboard Code](https://github.com/ese5160/final-project-firmware-s26-t30-coopedup/blob/main/A09G/node-red.json)
