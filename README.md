@@ -11,7 +11,7 @@
 | Alexander Yu     | ayu2126@seas.upenn.edu     | lerntuspel      |
 | Ben Sirota       | sirotab@seas.upenn.edu     | 21bsirota       |
 
-**GitHub Repository URL:**
+**GitHub Repository URL: [https://github.com/ese5160/a11g-final-submission-s26-s26-t30-coopedup/tree/main](https://github.com/ese5160/a11g-final-submission-s26-s26-t30-coopedup/tree/main)**
 
 ## 1. Video Presentation
 
