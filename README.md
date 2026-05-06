@@ -18,26 +18,32 @@
 ## 2. Project Summary
 
 - Device Description
+
 Our device is a Smart Chicken Coop. It can monitor the habitat of your chickens, as well as control doors and vents on your coop.
 We were inspired to do this project by a coworker who was keeping chickens, and didn't want to have to spend so much time going outside to check on them.
 We use the internet to allow the user to monitor/control their chicken coop from anywhere, even if they are on the opposite side of the world as their chickens.
 
 - Device Functionality
+
 Our device is designed to include every sensor on an I2C bus, so the data can be sampled and sent to our Node-RED dashboard using MQTT. The dashboard then takes user input and decides whether to open/close the doors/vents, and sends commands back to our device.
 We included a BME688 temperature/humidity/air pressure sensor, and a VEML7700 ambient light sensor. The stepper motors are driven by A4988 stepper drivers.
 ![Block Diagram](diagram.png)
 
 - Challenges
+
 The biggest difficulty we faced was that our original design had some of our stepper driver control ports connected to GPIO pins on our microcontroller that were reserved. This resulted in us having to do manual reworks to the boards, cutting traces and soldering external wires onto them.
 
 - Prototype Learnings
+
 We learned a lot of lessons from building this device. In the future, we would put test points on all of our GPIO pins and wires, even if we think it's not necessary. We would also simplify our power architecture, so that our 12V power supply could power everything, instead of having to have two separate power inputs. We would also improve our silkscreens, so we could keep track of all of our test points and buttons and LEDs.
 
 - Next Steps & Takeaways
+
 For project improvements, we would implement the PIR motion sensors and a camera, so we could send photos to the user and keep track of the moving chickens.
 We learned a lot from this course, such as PCB design, integration, and designing for issues instead of designing for a perfect world where everything goes correctly.
 
 - Project Links
+
 [Node-RED Instance](http://40.75.82.175:1880/dashboard/page1)
 
 [Altium PCB Link](https://upenn-eselabs.365.altium.com/designs/C8490577-CECD-403B-99C1-078505D1E597#design)
