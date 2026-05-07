@@ -85,7 +85,7 @@ Both motors attached to makeshift doors onto a makeshift chicken coop. In realit
 ### PCB Top View
 ![PCBT](./images/Top.png)
 
-### PCB Bottome View
+### PCB Bottom View
 ![PCBB](./images/Bottom.png)
 
 ### Altium3D View
