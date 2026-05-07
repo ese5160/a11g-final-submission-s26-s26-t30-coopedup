@@ -15,6 +15,8 @@
 
 ## 1. Video Presentation
 
+[Video Presentation Link](https://youtu.be/b1azTzj2vMI?si=e9enoiPNGR3f6Rph)
+
 ## 2. Project Summary
 
 - Device Description
@@ -75,6 +77,36 @@ We learned a lot from this course, such as PCB design, integration, and designin
 | SRS-08 | The system shall do a calculate the difference between measured humidity of coop and outside humidity. If the coop is more humid, motors shall open the ducts automatically. If the coop is less humid, the ducts shall remain closed unless user override | ✅ |
 
 ## 4. Project Photos & Screenshots
+
+### Project at Demo
+![Project](./images/Project.png)
+Both motors attached to makeshift doors onto a makeshift chicken coop. In reality, they can be attached to anything anywhere.
+
+### PCB Top View
+![PCBT](./images/Top.png)
+
+### PCB Bottome View
+![PCBB](./images/Bottom.png)
+
+### Altium3D View
+![Altium3D](./images/Altium3D.png)
+
+### Altium2D View
+![Altium2D](./images/Altium2D.png)
+
+### NodeRed Dashboard Frontend
+![NRF1](./images/NodeRedFront1.png)
+![NRF2](./images/NodeRedFront2.png)
+
+### NodeRed Dashboard Backend
+![NRBE](./images/NodeRedBack.png)
+
+### NodeRed Dashboard Backend
+![THERMAL](./images/ThermalAtLoad.png)
+This is our board under full load (approximately 250mA).
+
+### Same block diagram from earlier
+![Block Diagram](diagram.png)
 
 ## 5. Codebase
 
